@@ -1,20 +1,18 @@
-import React, { FC } from 'react';
-import { ScriptLanguage } from '../enums';
+import React, { FC, PropsWithChildren } from 'react';
 
 
-interface MenuItemProps {
-  label: string,
-  language: ScriptLanguage
+interface MenuItemProps extends PropsWithChildren {
+  active: boolean,
+  onSelected: () => void
 }
 
-const MenuItem: FC<MenuItemProps> = (prop) => {
-
-  console.log("Portal Code Unleashed", "Menu Item " + prop.label);
+const MenuItem: FC<MenuItemProps> = (props: MenuItemProps) => {
+  console.log("Portal Code Unleashed", "Menu Item " + props.children);
 
   return (
     <div className="cdk-tree-node mat-tree-node">
-      <a className="body" href="#/">
-        <div>{prop.label}</div>
+      <a className="body" onClick={props.onSelected}>
+        <div>{props.children}</div>
       </a>
       <div className="progress">
         <div className="line"></div>
@@ -23,7 +21,7 @@ const MenuItem: FC<MenuItemProps> = (prop) => {
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default MenuItem;

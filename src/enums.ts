@@ -1,3 +1,3 @@
 export enum ScriptLanguage {
-  JavaScript, Python, Lua, Blockly
+  JavaScript="javascript", Python="python", Lua="lua", Blockly=""
 }
