@@ -9,20 +9,21 @@ interface MenuItemProps {
 
 const MenuItem: FC<MenuItemProps> = (prop) => {
 
-  console.log("Portal Code Unleash", "Menu Item " + prop.label);
+  console.log("Portal Code Unleashed", "Menu Item " + prop.label);
 
   return (
-  <div className="cdk-tree-node mat-tree-node">
+    <div className="cdk-tree-node mat-tree-node">
       <a className="body" href="#/">
-          <div>{prop.label}</div>
+        <div>{prop.label}</div>
       </a>
       <div className="progress">
-          <div className="line"></div>
-          <div className="dot">
-              <div className="strike"></div>
-          </div>
+        <div className="line"></div>
+        <div className="dot">
+          <div className="strike"></div>
+        </div>
       </div>
-  </div>
-)};
+    </div>
+  )
+};
 
 export default MenuItem;

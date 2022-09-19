@@ -1,6 +1,6 @@
 {
-  "id": "bf-portal-code-unleash",
-  "name": "Portal Code Unleash",
+  "id": "bf-portal-code-unleashed",
+  "name": "Portal Code Unleashed",
   "version": "1.0.1",
   "description": "Editor tool to use structured programing languages syntax alongside the Blockly editor.",
   "author": "Battlefield Portal Community",

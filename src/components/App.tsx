@@ -1,21 +1,18 @@
 import React, { FC } from 'react';
 import Editor from "@monaco-editor/react";
+import ReactDOM from 'react-dom';
 
-interface AppProps {}
+const App: FC = () => {
 
-const App: FC<AppProps> = () => {
+  console.log("Portal Code Unleashed", "App Editor");
 
-  console.log("Portal Code Unleash", "App Editor");
-
-  let plugin = BF2042Portal.Plugins.getPlugin("bf-portal-code-unleash");
+  let plugin = BF2042Portal.Plugins.getPlugin("bf-portal-code-unleashed");
 
   if (!plugin) {
-      BF2042Portal.Shared.logError("Failed to load Portal Code Unleash!");
+    BF2042Portal.Shared.logError("Failed to load Portal Code Unleashed!");
   }
 
-  return (
-    <Editor/>
-  );
-  };
+  return (<Editor />);
+};
 
 export default App;
