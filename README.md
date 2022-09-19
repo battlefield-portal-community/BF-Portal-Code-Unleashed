@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Battlefield Portal Community's Code Unleashed
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Code interpreter for Battlefield 2042 Portal's Rule Editor, allowing rules to be written in `JavaScript`, `Python` and `Lua` syntaxes with aditional toolset.
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [TypeScript](https://github.com/microsoft/TypeScript) and rely on [Monaco Editor](https://github.com/Microsoft/monaco-editor) same as in VSCode.
 
-In the project directory, you can run:
+Join us at [Discord](https://discord.gg/VQy2DrVg)
 
-### `npm start`
+## This project is under development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Aditional menu options to access the desired editor
+- [ ] Monaco editor integration
+- [ ] Blockly to JavaScript code generation
+- [ ] Blockly to Python code generation
+- [ ] Blockly to Lua code generation
+- [ ] JavaScript to Blockly converter
+- [ ] Python to Blockly converter
+- [ ] Lua to Blockly converter
+- [ ] Object definition snippets
+- [ ] Variables extension (Use named and unlimited variables with array)
+- [ ] Function `params` input and `return` output code snippets
+- [ ] Code comments 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## A Plugin for BF2042 Portal Extensions
 
-### `npm test`
+This project can be used as a Plugin for [BF2042 Portal Extensions](https://github.com/LennardF1989/BF2042-Portal-Extensions).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Install the BF2042-Portal-Extensions
+    - Chrome: https://chrome.google.com/webstore/detail/bf2042-portal-extensions/ojegdnmadhmgfijhiibianlhbkepdhlj
+    - Firefox: https://addons.mozilla.org/en-US/firefox/addon/bf2042-portal-extensions/
+2. Open the extension Options
+    - Chrome: Click on the extension icon > `Options`
+    - Firefox: Click on the extension icon
+3. On the extension page, click on `Add plugin`
+4. Enter the following url, and click on `Review` then `Confirm`
+  <strike><code>To be defined.</code></strike>
+  
+### Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+~~To be defined.~~
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Coding rules
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### JavaScript
+### Python
+### Lua
 
-### `npm run eject`
+## Legacy project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is a revival of [Ludonope](https://github.com/Ludonope) original [project](https://github.com/Ludonope/BFPortalUnleashed) of similar name, which has been discontinued.
